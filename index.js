@@ -1,10 +1,5 @@
-// const h1 = document.createElement("h1");
-// h1.textContent = "Hallo";
-// h1.className = "header";
-// document.getElementById("root").append(h1);
-// console.log(h1);
+// import ReactDOM from "react";
 
-// jsx
 const navbar = (
   <nav>
     <h1 className="header">Salo's saiti</h1>
@@ -15,4 +10,5 @@ const navbar = (
     </ul>
   </nav>
 );
-ReactDOM.render(navbar, document.getElementById("root"));
+// ReactDOM.render(navbar, document.getElementById("root"));
+ReactDOM.createRoot(document.getElementById("root")).render(navbar);
