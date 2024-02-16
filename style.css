@@ -40,8 +40,28 @@ nav > img {
 main {
   padding: 57px 27px;
   color: white;
+  background-image: url(../reaqt1scrimba/img/images.png);
+  background-repeat: no-repeat;
+  background-position: right 75%;
 }
 .main--title {
   margin: 0;
   font-size: 39px;
+  letter-spacing: -0.05em;
+  font-family: Inter;
+  font-weight: bold;
+  font-style: normal;
+}
+.main--facts {
+  margin-top: 46px;
+}
+
+.main--facts > li {
+  font-size: 16px;
+  line-height: 19px;
+  padding-block: 10px;
+}
+.main--facts > li::marker {
+  font-size: 1.4rem;
+  color: #61dafb;
 }
