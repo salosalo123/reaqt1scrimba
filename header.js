@@ -1,7 +1,7 @@
 // import React from "react";
-// import ReactDOM from "react-dom";
-// import Header from "./header";
-function Header() {
+import React from "react";
+
+export default function Header() {
   return (
     <header>
       <nav className="item">
@@ -20,13 +20,4 @@ function Header() {
     </header>
   );
 }
-// function HolePage() {
-//   return (
-//     <div>
-//       <Header />
-//       <Body />
-//       <Footer />
-//     </div>
-//   );
-// }
-ReactDOM.render(<Header />, document.getElementById("root"));
+// ReactDOM.render(<Header />, document.getElementById("root"));

@@ -3,3 +3,20 @@ body {
   margin: 0;
   padding: 0;
 }
+.nav {
+  display: flex;
+  justify-content: space-around;
+}
+.nav-items {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-items > li {
+  padding: 10px;
+}
+.nav,
+img {
+  width: 40px;
+}
